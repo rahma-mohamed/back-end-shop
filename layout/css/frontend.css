@@ -1,0 +1,283 @@
+/* start main rulez */
+:root{
+    --blue:#008dde;
+    --labny:#2eb3eb;
+    --mint:#01f6fe;
+    --gray: #d8e2ea;
+    --move:#d6accf;
+    --dark:#888;
+  }
+body{
+    background-color: #f4f4f4;
+}
+/* .asterisk{
+  position: absolute;
+  font-size: 30px;
+  left: 100px;
+  bottom: 3px;
+  color: #d20707;
+} */
+/* end main rulez */
+/* start login form */
+.login{
+    width: 300px;
+    margin: 100px auto;
+}
+.login h4{
+    color: #888;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login .form-control{
+    background-color: #e5e5e5;
+}
+.login .btn{
+    background-color: #008dde;
+}
+/* end login form */
+/* start navbar style */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .navbar {
+    
+    background-color: var(--labny);
+    margin-bottom: 0;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 15px 12px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: var(--gray);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 3px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* Responsive styles */
+@media (max-width: 600px) {
+  .navbar a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .navbar .dropdown, .navbar .dropdown-content {
+    position: relative;
+  }
+
+  .navbar .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .navbar .dropdown-content a {
+    text-align: left;
+  }
+}
+/* Responsive styles for 480px */
+@media (max-width: 480px) {
+    .navbar a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    
+    .dropdown {
+      float: none;
+    }
+    
+    .dropdown .dropbtn {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .dropdown-content {
+      position: static;
+      display: none;
+      min-width: 100%;
+      box-shadow: none;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  }
+  /* end nav bar style */
+
+
+  h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+  }
+/* start header page */
+.upper-bar{
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* end header page */
+/* start login page */
+.login-page form{
+  width: 380px;
+  margin: auto;
+  
+}
+.login-page .signup input{
+  margin-bottom: 5px;
+}
+.login-page h1{
+    color: #c0c0c0;
+}
+.login-page h1 span{
+  cursor: pointer;
+}
+.login-page .signup{
+  display: none;
+}
+.login-page [data-class="login"].selected{
+  color: #337ba7;
+}
+.login-page [data-class="signup"].selected{
+  color: #5cb85c;
+}
+/* end login page */
+/* start category page */
+.item-box{
+  position: relative;
+}
+.item-box .price-tag{
+  background-color: #000;
+  padding: 2px 10px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 3px;
+}
+/* end category page */
+/* start profile page */
+.thumbnail img{
+  width: 300px;
+}
+.block{
+  margin: 20px 0 0;
+}
+.information{
+  margin-top: 20px;
+}
+.panel-heading{
+  background-color: #008dde;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 1px solid #008dde;
+  color: white;
+}
+.panel-body{
+  background-color: #fff;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #008dde;
+}
+.information ul{
+  padding: 0;
+  margin: 0;
+}
+.information ul li{
+  padding: 10px;
+}
+.information ul li:nth-child(odd){
+  background-color: #eee;
+}
+.information ul li span{
+  display: inline-block;
+  width: 120px;
+}
+.thumbnail .date{
+  text-align: right;
+  font-size: 13px;
+  color: #aaa;
+  font-weight:bold ;
+}
+/* end profile page */
+/* item page */
+.item-info h2{
+  padding: 10px;
+  margin: 0;
+}
+.item-info p{
+  padding: 10px;
+ 
+}
+.item-info ul{
+  padding: 0;
+  margin: 0;
+}
+.item-info ul li{
+  padding: 10px;
+}
+.item-info ul li:nth-child(odd){
+  background-color: #e8e8e8;
+}
+.item-info ul li span{
+  display: inline-block;
+  width: 120px;
+}
+.ccostme-hr{
+  border-top: 1 solid #c9c9c9;
+}
